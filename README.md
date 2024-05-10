@@ -1,1 +1,2 @@
 # nextJSpractice
+# Next.js Fundamentals
