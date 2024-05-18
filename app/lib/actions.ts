@@ -119,6 +119,7 @@ export async function authenticate(
 ) {
   try {
     await signIn('credentials', formData);
+    console.log("login succeeded.");
   } catch (error) {
     if (error instanceof AuthError) {
       switch (error.type) {
